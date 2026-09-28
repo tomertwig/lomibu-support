@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lomibu · Support &amp; Privacy</title>
+  <meta name="description" content="Help for parents and the privacy policy for Lomibu, a free offline play app for ages 3–5.">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="lomibu.png" type="image/png">
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #fef9ef;
+      --foreground: #354d43;
+      --primary: #365f58;
+      --card: #fff;
+      --border: #bdcec0;
+      --muted: #526f62;
+      --contact: #dfecdf;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 2rem; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--foreground);
+      font: 1.0625rem/1.75 ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+    main { max-width: 52rem; margin: auto; padding: 3.5rem 1.5rem 2rem; }
+    header { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 2rem; }
+    header img { border-radius: 1.5rem; width: 88px; height: 88px; }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+      font-weight: 750;
+      letter-spacing: -0.04em;
+      margin: 0;
+    }
+    h1 span {
+      display: inline-block;
+      font-size: 0.55em;
+      font-weight: 500;
+      letter-spacing: 0;
+      margin-inline-start: 0.5rem;
+    }
+    .eyebrow {
+      font-size: 0.875rem;
+      font-weight: 650;
+      letter-spacing: 0.06em;
+      margin: 0 0 0.35rem;
+      color: var(--muted);
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      padding: 1rem 0;
+      border-block: 1px solid var(--border);
+    }
+    a {
+      color: var(--primary);
+      text-underline-offset: 0.22em;
+      overflow-wrap: anywhere;
+    }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 3px solid #a07521; outline-offset: 5px; }
+    nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      font-weight: 600;
+    }
+    section {
+      padding: 2.75rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    h2 {
+      font-size: 1.9rem;
+      line-height: 1.25;
+      margin: 0 0 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+    h3 {
+      margin: 1.8rem 0 0.35rem;
+      font-size: 1.15rem;
+      line-height: 1.4;
+      font-weight: 700;
+    }
+    p { margin: 0.6rem 0 1rem; }
+    .contact {
+      margin: 1.75rem 0;
+      padding: 1.5rem;
+      background: var(--contact);
+      border-radius: 1.25rem;
+    }
+    .contact h3 { margin-top: 0; }
+    .contact p { margin-bottom: 0; }
+    footer {
+      font-size: 0.875rem;
+      padding-top: 1.75rem;
+      color: var(--muted);
+    }
+    @media (max-width: 480px) {
+      main { padding: 2rem 1.25rem; }
+      header img { width: 68px; height: 68px; }
+      header { gap: 0.8rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="lomibu.png" width="88" height="88" alt="Lomibu bunny">
+      <div>
+        <p class="eyebrow">FOR PARENTS · להורים</p>
+        <h1>Lomibu <span lang="he">לומיבו</span></h1>
+      </div>
+    </header>
+
+    <nav aria-label="Page sections">
+      <a href="#support">Support</a>
+      <a href="#privacy">Privacy policy</a>
+      <a href="#hebrew" lang="he">עברית</a>
+    </nav>
+
+    <section id="support">
+      <h2>A little help</h2>
+      <p>Lomibu is a free, offline play app for children aged 3–5, with drawing, matching, puzzles and short arcade games.</p>
+      <p>Start with the turtle setting and four-piece puzzles. Try a few rounds together, then adjust the challenge to your child.</p>
+      <div class="contact">
+        <h3>Contact Tomer</h3>
+        <p><a href="mailto:tomertwig@gmail.com">tomertwig@gmail.com</a></p>
+        <p>Tell me which game needs help, your device model and what happened. Please leave out children’s names, photographs and other personal information.</p>
+      </div>
+      <h3>Sound and progress</h3>
+      <p>Use the speaker button to turn sound on or off. Your artwork, melodies, progress and preferences stay on your device. Deleting the app removes its local data.</p>
+      <h3>Trying again</h3>
+      <p>Puzzles and creative activities have no losing screen. Arcade games end a round when a required target is missed or a hazard is touched. The round arrow starts a fresh try.</p>
+    </section>
+
+    <section id="privacy">
+      <p class="eyebrow">UPDATED SEPTEMBER 9, 2026</p>
+      <h2>Privacy policy</h2>
+      <p>This policy applies to the public Lomibu app, developed by Tomer Twig.</p>
+      <h3>No personal data collected through the app</h3>
+      <p>The app works offline. It has no accounts, advertising, purchases, analytics SDKs or tracking. The developer does not collect, receive, sell or share personal information through the app.</p>
+      <h3>No access to personal media</h3>
+      <p>Lomibu does not access your camera, microphone, contacts, location or photo library. All 44 puzzle illustrations are included. There is no upload feature.</p>
+      <h3>Information saved on your device</h3>
+      <p>Your artwork, melodies, drawing and coloring progress, sound preferences and difficulty settings are saved locally and are not transmitted to the developer. Melodies use synthesized notes; no audio is recorded. Device backups, if enabled, are controlled through your Apple settings. Deleting the app removes its local data. Updating from an older private build removes copies of photos imported into the retired photo-puzzle feature, while preserving drawing progress.</p>
+      <h3>If you email support</h3>
+      <p>The developer receives your email address and the information you choose to include, and uses them to respond. Please do not send children’s personal information or photographs. To request deletion of support correspondence, email <a href="mailto:tomertwig@gmail.com">tomertwig@gmail.com</a>.</p>
+      <h3>Changes</h3>
+      <p>Material changes will be reflected here and in the app’s parent information. This policy does not cover the separate private family-development app.</p>
+    </section>
+
+    <section id="hebrew" lang="he" dir="rtl">
+      <p class="eyebrow">תמיכה ופרטיות</p>
+      <h2>קצת עזרה להורים</h2>
+      <p>לומיבו היא אפליקציית משחק חינמית לגילאי 3–5, שפועלת ללא אינטרנט. מתחילים ברמת הצב ובפאזל של ארבעה חלקים, ומשחקים יחד כמה סיבובים קצרים.</p>
+      <p>לשאלה או לדיווח על תקלה: <a href="mailto:tomertwig@gmail.com" dir="ltr">tomertwig@gmail.com</a>. כתבו באיזה משחק נתקלתם בבעיה, מה דגם המכשיר ומה קרה. אין צורך לשלוח שמות או תמונות של ילדים.</p>
+      <h3>מדיניות פרטיות</h3>
+      <p>המפתח, תומר טוויג, אינו אוסף, מקבל, מוכר או משתף מידע אישי דרך האפליקציה. אין חשבונות, פרסומות, רכישות, כלי ניתוח שימוש או מעקב. אין גישה למצלמה, למיקרופון, לאנשי קשר, למיקום או לספריית התמונות. כל 44 איורי הפאזלים כלולים באפליקציה, ואין אפשרות להעלות תמונות.</p>
+      <p>היצירות, המנגינות, ההתקדמות בציור ובצביעה והגדרות הקול והקושי נשמרות במכשיר בלבד ואינן נשלחות למפתח. המנגינות מורכבות מצלילים מובנים, ואין הקלטת קול. גיבויי המכשיר תלויים בהגדרות Apple שלכם. מחיקת האפליקציה מסירה את המידע המקומי. עדכון מגרסה פרטית ישנה מסיר עותקי תמונות שיובאו לתכונת הפאזלים שהוסרה, ושומר על התקדמות הציור.</p>
+      <p>בפנייה לתמיכה במייל, המפתח מקבל את כתובת המייל ואת התוכן שבחרתם לשלוח ומשתמש בהם כדי להשיב. אפשר לבקש מחיקת התכתבות באותה כתובת. אנא אל תשלחו מידע אישי או תמונות של ילדים.</p>
+      <p>שינויים מהותיים יופיעו כאן ובאזור ההורים באפליקציה. המדיניות חלה על אפליקציית לומיבו הציבורית, ולא על גרסת הפיתוח המשפחתית הנפרדת. עודכן ב־9 בספטמבר 2026.</p>
+    </section>
+
+    <footer>© 2026 Tomer Twig · Lomibu</footer>
+  </main>
+</body>
+</html>
